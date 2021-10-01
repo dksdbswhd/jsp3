@@ -16,7 +16,7 @@ public class Login extends HttpServlet{
 	//요청 Method 가 Get일 때 처리되는 메소드 : 메소드 인자 req, resp 을 인자로 요청이 들어오면 생성되는 객체를 전달 받습니다.
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// request, response 외의 JSP내장객체는 모두 선언해서 사용해야 합니다.
+		// request, response 외의 JSP내장객체는 모두 선언해서 사용해야 합니다. 
 		// JSP내장객체 out을 선언합니다.
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html");
